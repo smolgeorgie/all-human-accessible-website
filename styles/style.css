@@ -69,12 +69,32 @@
   }
 
   a {
-    text-decoration: none;
-}
+      text-decoration: none;
+  }
 
   img {
       width: 300px;
       height: 300px;
       margin-bottom: 10rem;
       margin-right: 13rem;
+  }
+
+  /* Styles for tablet */
+  @media (max-width: 768px) {
+
+      /* other styles */
+      nav {
+          width: 150px;
+          /* adjust as needed */
+      }
+  }
+
+  /* Styles for phone */
+  @media (max-width: 480px) {
+
+      /* other styles */
+      nav {
+          width: 100px;
+          /* adjust as needed */
+      }
   }
